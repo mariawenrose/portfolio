@@ -5,7 +5,19 @@
 }
 
 .App {
-  background-color: green;
+  background-color:#317c7d;
   height: 100vh;
+}
 
+.start-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4.5vh;
+  background-color: #c0c0c0;
+  border-top: 4px solid #c3cbcf;
 }
