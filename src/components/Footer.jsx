@@ -23,7 +23,7 @@ export default class Footer extends Component {
     return (
       <div className="start-bar">
         <div id="clock">
-          <h1>{this.state.time.toLocaleTimeString()}</h1>
+          <p>{this.state.time.toLocaleTimeString()}</p>
         </div>
       </div>
     )
